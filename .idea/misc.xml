@@ -20,6 +20,7 @@
     <option name="pathToJarWithRules" value="" />
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/my-Jsp-practice" />
     <file type="web" url="file://$PROJECT_DIR$/oauth" />
   </component>
   <component name="MavenProjectsManager">

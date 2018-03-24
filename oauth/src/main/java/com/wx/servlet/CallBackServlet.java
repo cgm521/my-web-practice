@@ -42,6 +42,9 @@ public class CallBackServlet extends HttpServlet {
         String info = oauthUtils.doGetJson(infoUrl);
 
         System.out.println(info);
-        super.doGet(req,resp);
+        //
+        req.setAttribute("info",info);
+//         请求转发到登录成功页面
+        req.getRequestDispatcher("login.jsp").forward(req,resp);
     }
 }

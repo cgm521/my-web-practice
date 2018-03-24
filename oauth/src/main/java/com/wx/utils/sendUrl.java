@@ -8,7 +8,6 @@ import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLConnection;
-import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -74,13 +73,13 @@ public class sendUrl {
             connection.connect();
             OutputStreamWriter out = new OutputStreamWriter(connection.getOutputStream(), "UTF-8"); // utf-8编码
             //拼接参数
-            params.forEach((k, v) -> {
+           /* params.forEach((k, v) -> {
                 try {
                     out.append(k).append(v);
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
-            });
+            });*/
             out.flush();
             out.close();
 
@@ -114,8 +113,8 @@ public class sendUrl {
 
     public static void main(String[] args) {
         String url = "http://localhost:8080/ipos-chains/login?password=e10adc3949ba59abbe56e057f20f883e&username=15801115436";
-        String post = sendPost(url, new HashMap<>());
-        System.out.println(post);
+//        String post = sendPost(url, new HashMap<>());
+//        System.out.println(post);
     }
 
 }

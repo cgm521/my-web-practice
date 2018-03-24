@@ -31,6 +31,7 @@ public class login extends HttpServlet{
                 + "&scope=snsapi_base"
                 + "&state=STATE#wechat_redirect";
 //        String url1 = "https://www.baidu.com";
+        //请求重定向
         resp.sendRedirect(url);
     }
 

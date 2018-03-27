@@ -1,0 +1,12 @@
+CREATE TABLE `item` (
+`id`  int NOT NULL ,
+`source`  varchar(255) NULL ,
+`price`  double NULL ,
+`img`  varchar(255) NULL ,
+PRIMARY KEY (`id`)
+)ENGINE=MyISAM DEFAULT CHARSET=utf8
+;
+
+
+INSERT INTO `test`.`item` (`id`, `source`, `price`, `img`) VALUES ('1', '北京', '12', '1');
+INSERT INTO `test`.`item` (`id`, `source`, `price`, `img`) VALUES ('2', '上海', '11', '2');

@@ -15,7 +15,7 @@
     <form name="login" action="do_login.jsp" method="post">
         <p class="main">
             <label>用户名:</label><label>
-            <input type="text" name="username" value="">
+            <input type="text" name="name" value="">
         </label><br/>
             <label>密   码:</label><label>
             <input type="password" name="password" value="">

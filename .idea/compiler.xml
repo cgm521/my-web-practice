@@ -11,9 +11,9 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="my-Jsp-practice" target="1.5" />
-      <module name="my-web-practice" target="1.5" />
-      <module name="oauth" target="1.5" />
+      <module name="my-Jsp-practice" target="1.8" />
+      <module name="my-web-practice" target="1.8" />
+      <module name="oauth" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

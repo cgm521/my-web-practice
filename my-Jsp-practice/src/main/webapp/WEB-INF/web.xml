@@ -7,4 +7,20 @@
     <welcome-file-list>
         <welcome-file>/login.jsp</welcome-file>
     </welcome-file-list>
+    <servlet>
+        <servlet-name>regServlet</servlet-name>
+        <servlet-class>com.service.regServlet</servlet-class>
+        <init-param>
+            <param-name>username</param-name>
+            <param-value>admin</param-value>
+        </init-param>
+        <init-param>
+            <param-name>password</param-name>
+            <param-value>admin</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>regServlet</servlet-name>
+        <url-pattern>/regServlet</url-pattern>
+    </servlet-mapping>
 </web-app>
